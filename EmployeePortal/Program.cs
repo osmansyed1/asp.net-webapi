@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.Facebook;
+using Microsoft.Identity.Web;
 
 var builder = WebApplication.CreateBuilder(args);   
 
@@ -73,11 +74,17 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     .AddEntityFrameworkStores<DataContext>()
     .AddDefaultTokenProviders();  //12 require*/
 
-builder.Services.AddAuthentication(options =>
+
+
+
+
+/*builder.Services.AddAuthentication(options =>
 {
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(options =>
+})
+  .AddJwtBearer(options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
     {
@@ -89,19 +96,60 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = builder.Configuration["Jwt:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
     };
-}).AddFacebook(options =>
+})
+
+.AddFacebook(options =>
 {
     options.AppId = builder.Configuration["Facebook:AppId"]!;
     options.AppSecret = builder.Configuration["Facebook:AppSecret"]!;
     options.Scope.Add("email"); // Optional: request additional permissions
     options.SaveTokens = true;
-});
+});*/
+
+
+// Configure Azure AD Authentication using JWT Bearer tokens
+/*builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.Authority = $"{builder.Configuration["AzureAd:Instance"]}{builder.Configuration["AzureAd:TenantId"]}";
+        options.Audience = builder.Configuration["AzureAd:Audience"];
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["AzureAd:Authority"],
+            ValidAudience = builder.Configuration["AzureAd:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+        };
+    });*/
+
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
+
+// Facebook Authentication
+builder.Services.AddAuthentication()
+    .AddFacebook(options =>
+    {
+        options.AppId = builder.Configuration["Facebook:AppId"]!;
+        options.AppSecret = builder.Configuration["Facebook:AppSecret"]!;
+        options.Scope.Add("email"); // Request additional permissions
+        options.SaveTokens = true;
+    });
+
+///for microsft entra id
+
 
 
 builder.Services.AddScoped<EmployeeRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddHttpClient(); // Register IHttpClientFactory for making HTTP requests
-
+builder.Services.AddCors(c => c.AddPolicy("default", builder => { builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader(); }));
 // Add Facebook configuration settings
 //builder.Services.Configure<FacebookSettings>(builder.Configuration.GetSection("Facebook"));
 
@@ -109,21 +157,45 @@ builder.Services.AddHttpClient(); // Register IHttpClientFactory for making HTTP
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+/*if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI()  ;
-}
+    app.UseSwaggerUI();
+}*/
+
+
+    app.UseSwagger();
+    app.UseSwaggerUI();
+
+
+/* here for azure*/
+/*app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Test01 V1");
+    c.RoutePrefix = string.Empty; // Makes Swagger UI accessible at the root URL
+});*/
 
 app.UseHttpsRedirection();
 
-//app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
-app.UseCors(policy =>
-    policy.WithOrigins("https://localhost:4200","http://localhost:4200")
-          .AllowAnyHeader()
-          .AllowAnyMethod()
-          .AllowCredentials());
+/*builder.Services.AddCors(options =>
+{
+    options.AddPolicy("default", policy =>
+    {
+        policy.AllowAnyOrigin()   // Allow any origin (you can restrict this to specific domains)
+              .AllowAnyMethod()   // Allow any HTTP method (GET, POST, etc.)
+              .AllowAnyHeader();  // Allow any headers
+    });
+});*/
 
+//app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+//app.UseCors(policy =>
+//    policy.WithOrigins("https://localhost:4200","http://localhost:4200", "https://employeeportal-c3fxh2ane2anh2gc.southeastasia-01.azurewebsites.net/")
+//          .AllowAnyHeader()
+//          .AllowAnyMethod()
+//          .AllowCredentials());
+
+app.UseCors("default");
 app.UseAuthentication();
 app.UseAuthorization();
 

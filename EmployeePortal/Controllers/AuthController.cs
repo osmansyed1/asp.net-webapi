@@ -2,17 +2,20 @@
 using EmployeePortal.Interface;
 using EmployeePortal.Models;
 using EmployeePortal.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.Net.Http;
+using System.Security.Claims;
 
 namespace EmployeePortal.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AuthController : ControllerBase
     {
         private readonly UserManager<IdentityUser> _userManager;
@@ -103,10 +106,30 @@ private readonly IConfiguration _configuration;*/
             var user = await _userManager.FindByNameAsync(loginDto.Username);
             if (user != null && await _userManager.CheckPasswordAsync(user, loginDto.Password))
             {
-                var token = _tokenService.GenerateToken(user);
+                var token =  _tokenService.GenerateToken(user);
                 return Ok(new { Token = token });
             }
             return Unauthorized();
+        }
+
+
+        // This is the new Azure AD authentication method
+        [HttpPost("LoginWithAzureAd")]
+        [Authorize] // Requires a valid Azure AD token
+        public async Task<IActionResult> LoginWithAzureAd()
+        {
+            // The user is authenticated via Azure AD if the request has a valid Azure AD token
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return Unauthorized("User not found.");
+            }
+
+
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var token = _tokenService.GenerateToken(user);
+            return Ok(new { Token = token});
         }
 
         [HttpPost("LoginWithFacebook")]
@@ -135,6 +158,7 @@ private readonly IConfiguration _configuration;*/
             var token = _tokenService.GenerateToken(user);
             return Ok(new { Token = token });
         }
+       
 
         private async Task<FacebookValidationResponse> ValidateAccessToken(string accessToken)
         {
@@ -142,6 +166,52 @@ private readonly IConfiguration _configuration;*/
             var response = await _httpClient.GetStringAsync(requestUri);
             return Newtonsoft.Json.JsonConvert.DeserializeObject<FacebookValidationResponse>(response)!;
         }
+
+
+
+
+      /*  [HttpGet("LoginWithAzureAD")]
+        [Authorize(AuthenticationSchemes = "AzureAD")]
+        public async Task<IActionResult> LoginWithAzureAD()
+        {
+            var azureAdUser = User;
+            var email = azureAdUser.FindFirst(ClaimTypes.Email)?.Value;
+            var name = azureAdUser.FindFirst(ClaimTypes.Name)?.Value;
+
+            if (string.IsNullOrEmpty(email))
+                return BadRequest("Email claim not found in Azure AD token");
+
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                user = new IdentityUser
+                {
+                    UserName = name ?? email,
+                    Email = email,
+                    EmailConfirmed = true
+                };
+                var result = await _userManager.CreateAsync(user);
+                if (!result.Succeeded)
+                    return BadRequest(result.Errors);
+            }
+
+            var token = _tokenService.GenerateToken(user);
+            return Ok(new { Token = token });
+        }
+
+        [HttpGet("UserInfo")]
+        [Authorize]
+        public IActionResult GetUserInfo()
+        {
+            return Ok(new
+            {
+                Username = User.Identity?.Name,
+                Email = User.FindFirst(ClaimTypes.Email)?.Value,
+                Roles = User.Claims
+                    .Where(c => c.Type == ClaimTypes.Role)
+                    .Select(c => c.Value)
+            });
+        }*/
 
 
 

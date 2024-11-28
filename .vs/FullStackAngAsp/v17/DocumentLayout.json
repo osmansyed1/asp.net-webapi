@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Migrations\\20241028100735_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeePortal\\Migrations\\20241028100735_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Migrations\\20241114212515_inyuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeePortal\\Migrations\\20241114212515_inyuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\employeeportal.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\employeeportal.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\models\\rolebindingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\models\\rolebindingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\employeeportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\employeeportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|c:\\users\\yasse\\onedrive\\desktop\\fulllstackangasp\\fullstackangasp\\employeeportal\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A663AA5E-8F81-47DF-8DCD-EBED29777407}|EmployeePortal\\EmployeePortal.csproj|solutionrelative:employeeportal\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,19 +58,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Program.cs",
-              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Program.cs",
-              "RelativeToolTip": "EmployeePortal\\Program.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHsAAAAbAAAA",
+              "DocumentIndex": 6,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "EmployeePortal\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T08:46:57.354Z",
+              "WhenOpened": "2024-10-31T08:19:22.81Z",
               "IsPinned": true
             },
             {
@@ -62,29 +78,104 @@
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241028100735_initial.cs",
-              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Migrations\\20241028100735_initial.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Migrations\\20241028100735_initial.cs",
-              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Migrations\\20241028100735_initial.cs",
-              "RelativeToolTip": "EmployeePortal\\Migrations\\20241028100735_initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "20241114212515_inyuu.cs",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Migrations\\20241114212515_inyuu.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Migrations\\20241114212515_inyuu.cs",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Migrations\\20241114212515_inyuu.cs",
+              "RelativeToolTip": "EmployeePortal\\Migrations\\20241114212515_inyuu.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T10:07:35.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T21:25:15.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeePortal.http",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\EmployeePortal.http",
+              "RelativeDocumentMoniker": "EmployeePortal\\EmployeePortal.http",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\EmployeePortal.http",
+              "RelativeToolTip": "EmployeePortal\\EmployeePortal.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-11T13:53:48.225Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Repository\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Repository\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Repository\\EmployeeRepository.cs",
-              "RelativeToolTip": "EmployeePortal\\Repository\\EmployeeRepository.cs",
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeePortal\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T08:19:05.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeePortal\\Models\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:12:36.719Z"
+              "WhenOpened": "2024-10-31T08:18:47.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeePortal.csproj",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\EmployeePortal.csproj",
+              "RelativeDocumentMoniker": "EmployeePortal\\EmployeePortal.csproj",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\EmployeePortal.csproj",
+              "RelativeToolTip": "EmployeePortal\\EmployeePortal.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAIAwwAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-30T20:01:57.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EmployeePortal\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\appsettings.Development.json",
+              "RelativeToolTip": "EmployeePortal\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T15:49:29.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Data\\DataContext.cs",
+              "RelativeToolTip": "EmployeePortal\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T12:29:00.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Service\\TokenService.cs",
+              "RelativeToolTip": "EmployeePortal\\Service\\TokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:22:51.11Z"
             },
             {
               "$type": "Document",
@@ -94,58 +185,34 @@
               "RelativeDocumentMoniker": "EmployeePortal\\appsettings.json",
               "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\appsettings.json",
               "RelativeToolTip": "EmployeePortal\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAC+AAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-19T14:10:29.613Z",
+              "WhenOpened": "2024-10-29T20:08:32.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeePortal\\Program.cs",
+              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Program.cs",
+              "RelativeToolTip": "EmployeePortal\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAKQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:06:42.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Interface\\ITokenService.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Interface\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Interface\\ITokenService.cs",
-              "RelativeToolTip": "EmployeePortal\\Interface\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T14:01:41.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Service\\TokenService.cs",
-              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Service\\TokenService.cs",
-              "RelativeToolTip": "EmployeePortal\\Service\\TokenService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwBoAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T09:27:12.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoleBindingModel.cs",
-              "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Models\\RoleBindingModel.cs",
-              "RelativeDocumentMoniker": "EmployeePortal\\Models\\RoleBindingModel.cs",
-              "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Models\\RoleBindingModel.cs",
-              "RelativeToolTip": "EmployeePortal\\Models\\RoleBindingModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:25:33.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "EmployeePortal\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\yasse\\OneDrive\\Desktop\\FulllstackAngAsp\\FullStackAngAsp\\EmployeePortal\\Controllers\\AuthController.cs",
               "RelativeToolTip": "EmployeePortal\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAYwDYAAAAxAAAA",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAwwAUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:25:18.256Z"
+              "WhenOpened": "2024-10-29T16:28:41.189Z"
             }
           ]
         }
